@@ -1,0 +1,325 @@
+********************************************************************************
+***                  Micro-Cap 10.0.7.0 Evaluation Version                   ***
+***                                  Elisey                                  ***
+***                                 Phystech                                 ***
+***                       Transient Analysis of flt5p                        ***
+***                           28.02.2024 21:24:39                            ***
+********************************************************************************
+Limits
+======
+Time Range           4u
+Maximum Time Step    1n
+Number of Points     51
+Temperature          Linear 27
+Retrace Runs         1
+Run Options          Normal
+State Variables      Zero
+Operating Point      On
+Operating Point Only Off
+
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27 
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+B             0.000   2             0.000   3             0.000  
+4             0.000   5             0.000   6             0.000  
+7             0.000   8             0.000   9             0.000  
+10            0.000   11            0.000   12            0.000  
+13            0.000   14            0.000   R             0.000  
+16            0.000   17            0.000   18            0.000  
+L             0.000   20            0.000   21            0.000  
+H             0.000   23            0.000  
+
+DC Operating Point Inductor Current
+===================================
+Inductor     Current  Inductor     Current  Inductor     Current 
+L1B           0.000   L0            0.000   L0B           0.000  
+L2B           0.000   L3B           0.000   L4B           0.000  
+L1R           0.000   L0R           0.000   L2R           0.000  
+L4R           0.000   L3R           0.000   L1L           0.000  
+L3L           0.000   L1H           0.000   L3H           0.000  
+C0B.L         0.000   C1B.L         0.000   C2B.L         0.000  
+C3B.L         0.000   C4B.L         0.000   C1R.L         0.000  
+C0R.L         0.000   C2R.L         0.000   C4R.L         0.000  
+C3R.L         0.000   C0L.L         0.000   C2L.L         0.000  
+C4L.L         0.000   C0H.L         0.000   C2H.L         0.000  
+C3H.L         0.000  
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RLB           RSB          E.RS             Q            R0
+V                    0.000         0.000         0.000         0.000         0.000 
+Power DC Terms:
+PD                   0.000         0.000         0.000         0.000         0.000 
+
+DC Pin Currents:
+Ir                   0.000         0.000         0.000         0.000         0.000 
+
+Device Variables:
+tc1                  0.000         0.000         0.000         0.000         0.000 
+tc2                  0.000         0.000         0.000         0.000         0.000 
+
+
+Instance:               RSR           RLR           RSL           RLL           RSH
+V                    0.000         0.000         0.000         0.000         0.000 
+Power DC Terms:
+PD                   0.000         0.000         0.000         0.000         0.000 
+
+DC Pin Currents:
+Ir                   0.000         0.000         0.000         0.000         0.000 
+
+Device Variables:
+tc1                  0.000         0.000         0.000         0.000         0.000 
+tc2                  0.000         0.000         0.000         0.000         0.000 
+
+
+Instance:               RHL
+V                    0.000 
+Power DC Terms:
+PD                   0.000 
+
+DC Pin Currents:
+Ir                   0.000 
+
+Device Variables:
+tc1                  0.000 
+tc2                  0.000 
+
+
+
+Operating Point for Devices of Type Inductor
+============================================
+Instance:               L1B            L0           L0B           L2B           L3B
+V                    0.000         0.000         0.000         0.000         0.000 
+Power DC Terms:
+PS                   0.000         0.000         0.000         0.000         0.000 
+
+DC Pin Currents:
+Il                   0.000         0.000         0.000         0.000         0.000 
+
+Device Variables:
+ic                   0.000         0.000         0.000         0.000         0.000 
+
+
+Instance:               L4B           L1R           L0R           L2R           L4R
+V                    0.000         0.000         0.000         0.000         0.000 
+Power DC Terms:
+PS                   0.000         0.000         0.000         0.000         0.000 
+
+DC Pin Currents:
+Il                   0.000         0.000         0.000         0.000         0.000 
+
+Device Variables:
+ic                   0.000         0.000         0.000         0.000         0.000 
+
+
+Instance:               L3R           L1L           L3L           L1H           L3H
+V                    0.000         0.000         0.000         0.000         0.000 
+Power DC Terms:
+PS                   0.000         0.000         0.000         0.000         0.000 
+
+DC Pin Currents:
+Il                   0.000         0.000         0.000         0.000         0.000 
+
+Device Variables:
+ic                   0.000         0.000         0.000         0.000         0.000 
+
+
+Instance:             C0B.L         C1B.L         C2B.L         C3B.L         C4B.L
+V                    0.000         0.000         0.000         0.000         0.000 
+Power DC Terms:
+PS                   0.000         0.000         0.000         0.000         0.000 
+
+DC Pin Currents:
+Il                   0.000         0.000         0.000         0.000         0.000 
+
+Device Variables:
+ic                   0.000         0.000         0.000         0.000         0.000 
+
+
+Instance:             C1R.L         C0R.L         C2R.L         C4R.L         C3R.L
+V                    0.000         0.000         0.000         0.000         0.000 
+Power DC Terms:
+PS                   0.000         0.000         0.000         0.000         0.000 
+
+DC Pin Currents:
+Il                   0.000         0.000         0.000         0.000         0.000 
+
+Device Variables:
+ic                   0.000         0.000         0.000         0.000         0.000 
+
+
+Instance:             C0L.L         C2L.L         C4L.L         C0H.L         C2H.L
+V                    0.000         0.000         0.000         0.000         0.000 
+Power DC Terms:
+PS                   0.000         0.000         0.000         0.000         0.000 
+
+DC Pin Currents:
+Il                   0.000         0.000         0.000         0.000         0.000 
+
+Device Variables:
+ic                   0.000         0.000         0.000         0.000         0.000 
+
+
+Instance:             C3H.L
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Il                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:               C0B           C1B            C0           C2B           C3B
+V                    0.000         0.000         0.000         0.000         0.000 
+Power DC Terms:
+PS                   0.000         0.000         0.000         0.000         0.000 
+
+DC Pin Currents:
+Ic                   0.000         0.000         0.000         0.000         0.000 
+
+Device Variables:
+ic                   0.000         0.000         0.000         0.000         0.000 
+
+
+Instance:               C4B           C1R           C0R           C2R           C4R
+V                    0.000         0.000         0.000         0.000         0.000 
+Power DC Terms:
+PS                   0.000         0.000         0.000         0.000         0.000 
+
+DC Pin Currents:
+Ic                   0.000         0.000         0.000         0.000         0.000 
+
+Device Variables:
+ic                   0.000         0.000         0.000         0.000         0.000 
+
+
+Instance:               C3R           C0L           C2L           C4L           C0H
+V                    0.000         0.000         0.000         0.000         0.000 
+Power DC Terms:
+PS                   0.000         0.000         0.000         0.000         0.000 
+
+DC Pin Currents:
+Ic                   0.000         0.000         0.000         0.000         0.000 
+
+Device Variables:
+ic                   0.000         0.000         0.000         0.000         0.000 
+
+
+Instance:               C2H           C3H
+V                    0.000         0.000 
+Power DC Terms:
+PS                   0.000         0.000 
+
+DC Pin Currents:
+Ic                   0.000         0.000 
+
+Device Variables:
+ic                   0.000         0.000 
+
+
+
+Operating Point for Devices of Type Sine Source
+===============================================
+Instance:                 E
+Using model:           1MHZ
+V                    0.000 
+Power DC Terms:
+PG                   0.000 
+
+DC Pin Currents:
+ISource              0.000 
+
+
+
+Operating Point for Devices of Type Pulse
+=========================================
+Instance:                VP
+Using model:          PULSE
+V                    0.000 
+Power DC Terms:
+PG                   0.000 
+
+DC Pin Currents:
+ISource              0.000 
+
+
+
+Operating Point for Devices of Type Function Source
+===================================================
+Instance:          C0B.NFI           C0B       C1B.NFI           C1B       C2B.NFI
+V                   0.000         0.000         0.000         0.000         0.000 
+Power DC Terms:
+PG                  0.000         0.000         0.000         0.000         0.000 
+
+DC Pin Currents:
+ISource             0.000         0.000         0.000         0.000         0.000 
+
+
+Instance:              C2B       C3B.NFI           C3B       C4B.NFI           C4B
+V                   0.000         0.000         0.000         0.000         0.000 
+Power DC Terms:
+PG                  0.000         0.000         0.000         0.000         0.000 
+
+DC Pin Currents:
+ISource             0.000         0.000         0.000         0.000         0.000 
+
+
+Instance:          C1R.NFI           C1R       C0R.NFI           C0R       C2R.NFI
+V                   0.000         0.000         0.000         0.000         0.000 
+Power DC Terms:
+PG                  0.000         0.000         0.000         0.000         0.000 
+
+DC Pin Currents:
+ISource             0.000         0.000         0.000         0.000         0.000 
+
+
+Instance:              C2R       C4R.NFI           C4R       C3R.NFI           C3R
+V                   0.000         0.000         0.000         0.000         0.000 
+Power DC Terms:
+PG                  0.000         0.000         0.000         0.000         0.000 
+
+DC Pin Currents:
+ISource             0.000         0.000         0.000         0.000         0.000 
+
+
+Instance:          C0L.NFI           C0L       C2L.NFI           C2L       C4L.NFI
+V                   0.000         0.000         0.000         0.000         0.000 
+Power DC Terms:
+PG                  0.000         0.000         0.000         0.000         0.000 
+
+DC Pin Currents:
+ISource             0.000         0.000         0.000         0.000         0.000 
+
+
+Instance:              C4L       C0H.NFI           C0H       C2H.NFI           C2H
+V                   0.000         0.000         0.000         0.000         0.000 
+Power DC Terms:
+PG                  0.000         0.000         0.000         0.000         0.000 
+
+DC Pin Currents:
+ISource             0.000         0.000         0.000         0.000         0.000 
+
+
+Instance:          C3H.NFI           C3H
+V                   0.000         0.000 
+Power DC Terms:
+PG                  0.000         0.000 
+
+DC Pin Currents:
+ISource             0.000         0.000 
+
+
